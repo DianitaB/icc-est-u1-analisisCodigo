@@ -26,7 +26,7 @@ public class Benchmarking {
         int[] arreglo = new int[tam];
         Random random = new Random();
         for (int i = 0; i < tam; i++) {
-            arreglo[i] = random.nextInt(100000s); 
+            arreglo[i] = random.nextInt(10000); 
         }
         return arreglo;
     }
